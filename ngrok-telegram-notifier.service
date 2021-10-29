@@ -1,0 +1,13 @@
+[Unit]
+Description=NgrokTelegram
+After=network.service
+
+[Service]
+type=simple
+User=<user>
+WorkingDirectory=<install_dir>
+ExecStart=python daemon.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -6,8 +6,8 @@ After=network.service
 type=simple
 User=<user>
 WorkingDirectory=<install_dir>
-ExecStart=python daemon.py
-Restart=on-failure
+ExecStart=<path_python>/python <install_dir>daemon.py
+Restart=always
 
 [Install]
 WantedBy=multi-user.target

@@ -5,7 +5,7 @@ Notify via Telegram bot the ngrok endpoint
 ``` https://gist.github.com/Mk555/6dea79c74fb26fe92774e9067dfe7222 ```
 
 ## Init
-```pip install telegram python-dotenv requests```
+```pip install python-telegram-bot python-dotenv requests```
 
 ## Env file : 
 File named ```.env``` in the ```<install_dir>``` of the script
